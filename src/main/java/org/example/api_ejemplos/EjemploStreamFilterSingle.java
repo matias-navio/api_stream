@@ -2,12 +2,12 @@ package org.example.api_ejemplos;
 
 import org.example.api_ejemplos.models.User;
 
-import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class EjemploStreamFilter {
+public class EjemploStreamFilterSingle {
     public static void main(String[] args) {
 
         // poblando un objeto usuario
@@ -17,8 +17,10 @@ public class EjemploStreamFilter {
                 .map(name -> new User(name.split(" ")[0], name.split(" ")[1]))
                 .filter(u -> u.getName().equals("Pepe"))
                 .peek(System.out::println);
-        List<User> userList = users.collect(Collectors.toList());
-        userList.forEach(System.out::println);
+
+        Optional<User> user = users.findFirst();
+        System.out.println(user.get());
+
     }
 
 
