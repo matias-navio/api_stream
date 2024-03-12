@@ -1,10 +1,10 @@
-package org.example;
+package org.example.api_ejemplos;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Stream;
 
-public class Main {
+public class EjemploStream {
     public static void main(String[] args) {
 
         // Creamos un Stream y los recorremos
@@ -25,5 +25,7 @@ public class Main {
         frutas.add("Pera");
         frutas.add("Uva");
         frutas.stream().forEach(System.out::println);
+
+
     }
 }
