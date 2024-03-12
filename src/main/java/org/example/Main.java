@@ -16,7 +16,7 @@ public class Main {
         nombre.forEach(n -> System.out.println(n));
 
         System.out.println("");
- 
+
         // Creamos un Stream a partir de un objeto Collection
 
         List<String> frutas = new ArrayList<>();
