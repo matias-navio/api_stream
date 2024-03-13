@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10a194a2-1ee5-4e93-a23f-df326401daac" name="Changes" comment="Ejemplos map, peek">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/api_ejemplos/EjemploStreamFilterAnyMatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/api_ejemplos/EjemploStreamFilterSingle.java" afterDir="false" />
+    <list default="true" id="10a194a2-1ee5-4e93-a23f-df326401daac" name="Changes" comment="Filter, findFirst y get">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/api_ejemplos/EjemploStreamFilterCount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/api_ejemplos/EjemploStreamFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/api_ejemplos/EjemploStreamFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/api_ejemplos/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/api_ejemplos/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/api_ejemplos/EjemploStreamFilterAnyMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/api_ejemplos/EjemploStreamFilterAnyMatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/api_ejemplos/EjemploStreamFilterSingle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/api_ejemplos/EjemploStreamFilterSingle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +83,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710249047923</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Filter, findFirst y get">
+      <option name="closed" value="true" />
+      <created>1710250870163</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710250870163</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,6 +109,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Creacion de stream y metodo of, forEach" />
     <MESSAGE value="Ejemplos map, peek" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejemplos map, peek" />
+    <MESSAGE value="Filter, findFirst y get" />
+    <option name="LAST_COMMIT_MESSAGE" value="Filter, findFirst y get" />
   </component>
 </project>
