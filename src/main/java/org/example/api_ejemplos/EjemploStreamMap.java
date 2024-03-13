@@ -2,7 +2,6 @@ package org.example.api_ejemplos;
 
 import org.example.api_ejemplos.models.User;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;

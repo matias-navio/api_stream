@@ -2,9 +2,7 @@ package org.example.api_ejemplos;
 
 import org.example.api_ejemplos.models.User;
 
-import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class EjemploStreamFilterSingle {

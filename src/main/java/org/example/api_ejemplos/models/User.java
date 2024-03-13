@@ -41,4 +41,14 @@ public class User {
     public String toString() {
         return name + ' ' + lastname;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
 }

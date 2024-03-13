@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class EjemploStreamFilter {
+public class EjemploStreamDistinctUser {
     public static void main(String[] args) {
 
         // poblando un objeto usuario
