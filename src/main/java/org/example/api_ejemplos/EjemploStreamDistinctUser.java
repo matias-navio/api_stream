@@ -2,8 +2,6 @@ package org.example.api_ejemplos;
 
 import org.example.api_ejemplos.models.User;
 
-import java.util.List;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class EjemploStreamDistinctUser {
@@ -11,13 +9,12 @@ public class EjemploStreamDistinctUser {
 
         // poblando un objeto usuario
 
-        Stream<User> users = Stream
-                .of("Matias Navio", "Juan Elias", "Pepe Perez", "Santiago Federici", "Pepe Garcia")
-                .map(name -> new User(name.split(" ")[0], name.split(" ")[1]))
-                .filter(u -> u.getName().equals("Pepe"))
-                .peek(System.out::println);
-        List<User> userList = users.collect(Collectors.toList());
-        userList.forEach(System.out::println);
+        Stream<User> nombres = Stream
+                .of("Matias Navio", "Juan Elias", "Pepe Perez", "Santiago Federici", "Pepe Garcia", "Juan Elias", "Juan Elias")
+                .map(n -> new User(n.split(" ")[0], n.split(" ")[1]))
+                .distinct();
+
+        nombres.forEach(System.out::println);
     }
 
 
